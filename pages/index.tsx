@@ -1,7 +1,6 @@
 import CommandHighlighter from "@/components/highlighter/command-highlighter";
 import Highlighter from "@/components/highlighter/highlighter";
 import { commandHandler } from "@/data/commands";
-import { br } from "@/data/common";
 import { welcomeText } from "@/data/text";
 import { useState, useEffect, useRef, useCallback } from "react";
 
