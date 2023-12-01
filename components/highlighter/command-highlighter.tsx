@@ -1,5 +1,5 @@
-import { commands } from "@/data/commands";
 import React from "react";
+import { commands } from "../../data/commands";
 
 interface Props {
   line: string;

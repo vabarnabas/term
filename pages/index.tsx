@@ -1,8 +1,8 @@
-import CommandHighlighter from "@/components/highlighter/command-highlighter";
-import Highlighter from "@/components/highlighter/highlighter";
-import { commandHandler } from "@/data/commands";
-import { welcomeText } from "@/data/text";
 import { useState, useEffect, useRef, useCallback } from "react";
+import { commandHandler } from "../data/commands";
+import CommandHighlighter from "../components/highlighter/command-highlighter";
+import Highlighter from "../components/highlighter/highlighter";
+import { welcomeText } from "../data/text";
 
 export default function Home() {
   const [lines, setLines] = useState<string[]>(welcomeText);
